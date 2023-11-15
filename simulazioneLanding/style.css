@@ -1,90 +1,110 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    font-family: 'Montserrat', sans-serif;
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: antiquewhite;
 }
 
 /* modifiche header */
 
 /* nav */
 
-nav{
-    width: 100vw;
-    height: 20vh;
-    background-color: burlywood;
-
+nav {
+  width: 100vw;
+  height: 20vh;
+  background-color: burlywood;
 }
 
-.wrapper{
-    max-width: 1200px;
-    height: 20vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
+.wrapper {
+  max-width: 1200px;
+  height: 20vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
 }
-.logo h3{
-    margin-left: 10px;
+.logo h3 {
+  margin-left: 10px;
 }
-.logo{
-    display: flex;
-    align-items: end;
-    font-size: 20px;
+.logo {
+  display: flex;
+  align-items: end;
+  font-size: 20px;
 }
 /* allineamento elementi lista */
 ul {
-    display: flex;
-    gap: 40px;
-    font-size: 20px;
-    list-style: none;
-    
+  display: flex;
+  gap: 40px;
+  font-size: 20px;
+  list-style: none;
 }
 
-a{
-    text-decoration: none;
-    color: black;
-    font-weight: bolder;
-    
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
 }
 
-a:hover{
-    color: grey;
+a:hover {
+  color: grey;
 }
-
-
-
 
 /* milestone2 */
 /* sfondo main */
 
-main{
-    background-image: url(/img/sfondo2.jpg);
-    height: 100vh;
-    width: 100vw;
-    background-size: cover;
-    background-position: bottom;
+main {
+  background-image: url(/img/sfondo2.jpg);
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: bottom;
 }
 
-
-.jumbo{
-    display: flex;
-    justify-content: center;
-    height: 100vh;
-    align-items: center;
+.jumbo {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
 }
 
-.bottone{
-    height: max-content;
-    background-color:beige; 
-    margin-right: 20px;
-    padding: 5px;
+.bottone {
+  height: max-content;
+  background-color: beige;
+  margin-right: 20px;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 30px;
+}
+
+/* malestone 3 */
+
+section{
+    margin-bottom: 60px;
+}
+
+section img{
     border-radius: 10px;
-    font-size: 30px;
-    
+}
+.rettangolo1 {
+  display: flex;
+  max-width: 700px;
+  text-align: center;
+  margin: 20px au
 }
 
+.testo {
+  margin: 0px 10px 0px 10px;
+}
 
+.rettangolo2 {
+  display: flex;
+  max-width: 700px;
+  text-align: center;
+  flex-direction: row-reverse;
+  margin: 20px auto;
+  align-items: center;
+}
