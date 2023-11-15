@@ -108,3 +108,23 @@ section img{
   margin: 20px auto;
   align-items: center;
 }
+
+
+/* milestone 4 */
+
+
+
+.sezione{
+    text-align: center;
+    background-color: bisque;
+    padding: 10px;
+}
+
+.sezione h1{
+    margin: 20px 0px;
+}
+
+.box{
+    display: flex;
+    justify-content: space-evenly;
+}
