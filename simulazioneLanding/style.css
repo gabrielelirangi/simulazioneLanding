@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* modifiche header */
+
+/* nav */
+
+nav{
+    width: 100vw;
+    height: 20vh;
+    background-color: burlywood;
+
+}
+
+.wrapper{
+    max-width: 1200px;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.logo h3{
+    margin-left: 10px;
+}
+.logo{
+    display: flex;
+    align-items: end;
+    font-size: 20px;
+}
+/* allineamento elementi lista */
+ul {
+    display: flex;
+    gap: 40px;
+    font-size: 20px;
+    list-style: none;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    
+}
+
+a:hover{
+    color: grey;
+}
