@@ -55,91 +55,41 @@ a {
 a:hover {
   color: grey;
 }
-
-/* milestone2 */
-/* sfondo main */
+/* mainn */
 
 main {
-  background-image: url(/img/sfondo2.jpg);
-  height: 100vh;
-  width: 100vw;
-  background-size: cover;
-  background-position: bottom;
-}
-
-.jumbo {
-  display: flex;
-  justify-content: center;
-  height: 100vh;
-  align-items: center;
-}
-
-.bottone {
   height: max-content;
-  background-color: beige;
-  margin-right: 20px;
-  padding: 5px;
-  border-radius: 10px;
-  font-size: 30px;
+  background-color: antiquewhite;
+  font-size: 20px;
 }
-
-/* malestone 3 */
-
-section {
-  margin-bottom: 60px;
-}
-
-section img {
-  border-radius: 10px;
-}
-.rettangolo1 {
+.box-main {
   display: flex;
-  max-width: 700px;
   text-align: center;
-  margin: 20px auto;
-}
-
-.testo {
-  margin: 0px 10px 0px 10px;
-}
-
-.testo h1 {
-  color: brown;
-}
-
-.rettangolo2 {
-  display: flex;
-  max-width: 700px;
-  text-align: center;
-  flex-direction: row-reverse;
-  margin: 20px auto;
+  padding: 20px;
   align-items: center;
 }
-
-/* milestone 4 */
-
-.sezione {
-  text-align: center;
-  background-color: bisque;
-  padding: 10px;
-  width: 100vw;
-}
-
-.sezione h1 {
-  margin: 20px 0px;
-  font-size: 30px;
+.testo h1 {
+  margin-bottom: 10px;
+  font-family: cursive;
   color: brown;
 }
 
-.box {
-  display: flex;
-  justify-content: space-evenly;
+.immagine {
+  margin: 30px;
+}
+img {
+  border-radius: 10px;
 }
 
-/* milestone5 */
+.box-main1 {
+  display: flex;
+  flex-direction: row-reverse;
+  text-align: center;
+  padding: 20px;
+  align-items: center;
+}
 
 /* footer */
-
 
 .contenitore2 {
   height: 30vh;
@@ -187,90 +137,71 @@ section img {
   font-size: 50px;
 }
 
- .contenitore3{
+.contenitore3 {
   text-align: center;
   padding: 20px;
   font-size: small;
   font-weight: bolder;
-  height: auto;
+  height: 10vh;
   background-color: rgb(216, 150, 68);
-} 
+}
 
 /* media queries 430px*/
-
-@media screen and ( max-width: 430px) {
-  header{
+@media screen and (max-width: 430px) {
+  header {
     height: 20vh;
   }
-  .wrapper{
+  .wrapper {
     height: 20vh;
     padding: 20px;
   }
-  .nav-menu ul{
+
+  .nav-menu ul {
+    font-size: 0;
+    background-image: url(/img/logo3.png);
     height: 70px;
     width: 70px;
-    font-size: 0px ;
-    background-image: url(/img/logo3.png);
     background-size: cover;
     border-radius: 10px;
   }
-  .jumbo{
-    padding: 0px 10px 0px 30px;
+
+  .contenitore2 {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-  
- .box{
-  display: flex;
-  flex-direction: column;
- }
- .contenitore2{
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  
- }
- .contenitore3{
-  height: auto ;
-  
- }
-  
+  .contenitore3 {
+    height: auto;
+  }
 }
 
 /* media queries 1024px */
 
-
 @media screen and (max-width: 1024px) {
-  header{
+  header {
     height: 20vh;
   }
-  .wrapper{
+  .wrapper {
     height: 20vh;
     padding: 20px;
   }
-  .nav-menu ul{
+  .nav-menu ul {
+    font-size: 0;
+    background-image: url(/img/logo3.png);
     height: 70px;
     width: 70px;
-    font-size: 0px ;
-    background-image: url(/img/logo3.png);
     background-size: cover;
     border-radius: 10px;
   }
-  .jumbo{
-    padding: 0px 10px 0px 30px;
+  .contenitore2 {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-  
- .box{
-  display: flex;
-  flex-direction: column;
- }
- .contenitore2{
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  
- }
- .contenitore3{
-  height: auto;
- }
-  
+  .contenitore3 {
+    height: auto;
+  }
+
 }
